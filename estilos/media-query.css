@@ -1,0 +1,25 @@
+@charset "UTF8";
+
+/* Typical Devide Breakpoints
+    ----------------------------------------
+    20px — 480px for mobile devices
+    481px — 768px for iPads & tablets
+    769px — 1024px for small screens like laptop
+    1025px — 1200px for large screens like Desktops
+    1201px and above for extra large screens like TV
+*/
+
+@media screen and (min-width: 769px) {
+     body, html {
+        background: url(../imagens/pexels-tom-swinnen-1309766\ \(1\).jpg);
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+     }
+
+     section#login {
+        width: 45vw;
+        height: 60vh;
+     }
+}
+

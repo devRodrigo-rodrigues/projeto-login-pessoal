@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+body, html {
+    background: url(../imagens/pexels-tom-swinnen-1309766\ \(1\).jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    background: url(../imagens/pexels-tom-swinnen-1309766\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    border: 10px solid rgba(72, 2, 151, 0.973);
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(119, 0, 255, 0.39) ;
+
+    transform: translate(-50%, -50%);
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+form > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form > div.campo {
+    display: block;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+div.campo > input {
+    background-color: rgba(255, 255, 255, 0.034);
+    border: 2px solid white;
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px 30px 5px 10px;
+    font-size: 0.9em;
+}
+
+::placeholder {
+    font-weight: bold;
+    color: white;
+}
+
+div.sing input {
+
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.034);
+    border: 2px solid white;
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    font-size: 0.9em;
+
+}
+
+div.sing > a {
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+div.sing > input:hover{
+    background-color: white;
+    color: black;
+}
+
+div.sing > a:hover {
+    color: black;
+}
+
+div.campo > input:focus-within {
+    background-color: rgba(255, 255, 255, 0.418);
+    border: none;
+}
